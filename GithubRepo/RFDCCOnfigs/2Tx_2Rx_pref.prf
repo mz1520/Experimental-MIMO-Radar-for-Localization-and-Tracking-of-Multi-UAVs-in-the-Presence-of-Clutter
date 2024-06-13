@@ -1,0 +1,61 @@
+[ADC]
+Nb = 0
+
+[DAC]
+Nb = 2
+DAC_0_Tile = 0
+DAC_0_Slice = 0
+DAC_1_Tile = 1
+DAC_1_Slice = 0
+
+[DAC_0]
+QPhase = 90.000000
+IPhase = 0.000000
+Tone2/1 = 0.000000
+Offset = 0
+PEP = 0.000000
+NbSamples = 8192
+F.Spac = 20.000000
+CF = 200.000000
+Filename = "/C/Users/Max/Documents/FYP_LABS/pulse_max16300_Tp15samples.tdms"
+SignalType = 2
+Visualization = 1
+SecondNyquistZone = FALSE
+Channel = 1
+
+[DAC_1]
+QPhase = 90.000000
+IPhase = 0.000000
+Tone2/1 = 0.000000
+Offset = 0
+PEP = 0.000000
+NbSamples = 8192
+F.Spac = 20.000000
+CF = 200.000000
+Filename = "/C/Users/Max/Documents/FYP_LABS/pulse_max16300_Tp15samples.tdms"
+SignalType = 2
+Visualization = 1
+SecondNyquistZone = FALSE
+Channel = 1
+
+[MultiADC]
+Nb = 0
+
+[MultiDAC]
+Nb = 1
+MultiDAC_0_Channel_0 = "DAC Tile 0 - DAC 0"
+MultiDAC_0_Channel_1 = "DAC Tile 1 - DAC 0"
+MultiDAC_0_Channel_2 = "< No Selection >"
+MultiDAC_0_Channel_3 = "< No Selection >"
+MultiDAC_0_Channel_4 = "< No Selection >"
+MultiDAC_0_Channel_5 = "< No Selection >"
+MultiDAC_0_Channel_6 = "< No Selection >"
+MultiDAC_0_Channel_7 = "< No Selection >"
+
+[MultiRAW]
+Nb = 0
+
+[DynamicPerf]
+FStop_MHz = 100.000000
+FStart_MHz = -100.000000
+Averaging = 100

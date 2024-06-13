@@ -1,0 +1,94 @@
+[ADC]
+Nb = 2
+ADC_0_Tile = 0
+ADC_0_Slice = 0
+ADC_1_Tile = 1
+ADC_1_Slice = 0
+
+[ADC_0]
+Loop = FALSE
+Ampl.Mode = 0
+SearchFund = TRUE
+SpurBins = 0
+NBins = 12
+WindowParam = 2.000000
+Windowing = 0
+Visualization = 0
+SignalType = 0
+NbSamples = 5120
+F.Spac = 20.000000
+CF = 2400.000000
+PlotVisibility = 29
+XScale.Max = 1105.920000
+XScale.Min = -1105.920000
+RefFreq = 1000.000000
+RefBW = 100.000000
+Chan1Offset = 500.000000
+Chan1BW = 100.000000
+Chan2Offset = 500.000000
+Chan2BW = 100.000000
+
+[ADC_1]
+Loop = FALSE
+Ampl.Mode = 0
+SearchFund = TRUE
+SpurBins = 0
+NBins = 12
+WindowParam = 2.000000
+Windowing = 0
+Visualization = 1
+SignalType = 0
+NbSamples = 5120
+F.Spac = 20.000000
+CF = 2400.000000
+PlotVisibility = 29
+XScale.Max = 1105.920000
+XScale.Min = -1105.920000
+RefFreq = 1000.000000
+RefBW = 100.000000
+Chan1Offset = 500.000000
+Chan1BW = 100.000000
+Chan2Offset = 500.000000
+Chan2BW = 100.000000
+
+[DAC]
+Nb = 1
+DAC_0_Tile = 0
+DAC_0_Slice = 0
+
+[DAC_0]
+QPhase = 90.000000
+IPhase = 0.000000
+Tone2/1 = 0.000000
+Offset = 0
+PEP = 0.000000
+NbSamples = 8192
+F.Spac = 20.000000
+CF = 200.000000
+Filename = "/C/Users/Max/Documents/FYP_LABS/DAC_SignalFiles/PNcospulse_max32000_Tp15samples.tdms"
+SignalType = 2
+Visualization = 1
+SecondNyquistZone = FALSE
+Channel = 1
+
+[MultiADC]
+Nb = 0
+
+[MultiDAC]
+Nb = 1
+MultiDAC_0_Channel_0 = "DAC Tile 0 - DAC 0"
+MultiDAC_0_Channel_1 = "DAC Tile 1 - DAC 0"
+MultiDAC_0_Channel_2 = "< No Selection >"
+MultiDAC_0_Channel_3 = "< No Selection >"
+MultiDAC_0_Channel_4 = "< No Selection >"
+MultiDAC_0_Channel_5 = "< No Selection >"
+MultiDAC_0_Channel_6 = "< No Selection >"
+MultiDAC_0_Channel_7 = "< No Selection >"
+
+[MultiRAW]
+Nb = 0
+
+[DynamicPerf]
+FStop_MHz = 100.000000
+FStart_MHz = -100.000000
+Averaging = 100
